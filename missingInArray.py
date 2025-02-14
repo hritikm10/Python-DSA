@@ -6,4 +6,4 @@ def missingNumber(self, arr):
     expectedsum = n * (n + 1) // 2
     return expectedsum - sum
 
-
+#The sum of the first n natural numbers is given by the formula (n * (n + 1)) / 2. The idea is to compute this sum and subtract the sum of all elements in the array from it to get the missing number.
